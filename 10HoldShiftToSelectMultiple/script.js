@@ -1,0 +1,1 @@
+ document.querySelectorAll(' input[type="checkbox"]').multiple = true;

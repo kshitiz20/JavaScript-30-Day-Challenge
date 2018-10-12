@@ -1,0 +1,27 @@
+    .item {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #F1F1F1;
+    }
+    
+    body {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffc600;
+    }
+    
+    .container {
+        position: absolute;
+        text-align: center;
+        top: 178px;
+        background: #F1F1F1;
+        margin-right: 2px;
+        padding-right: 25px;
+    }
+    
+    input:checked+p {
+        background: #F9F9F9;
+        text-decoration: line-through;
+    }
